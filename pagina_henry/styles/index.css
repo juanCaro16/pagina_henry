@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+#text {
+    width: 500px;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+
+button {
+    background: #FD4C5C;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+    color: whitesmoke;
+}   
+
+#colors {
+    background: linear-gradient(to right, #f39762, #ff1f44, #fa4261);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header {
+    background-image: url(../assets/sec-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#musica {
+    font-family: sans-serif;
+    font-size: 200px;
+    color: aliceblue;
+}
+
+.seccion-uno {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 100px;
+}
+
+#img-one {
+    height: 600px;
+}
+
+.seccion-dos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+#img-two {
+    height: 600px;
+}
+
+.seccion-tres {
+    display: flex;
+    background: url(../assets/sec-4.png);
+    background-size: cover;
+    height: 80vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.textThree {
+    color: whitesmoke;
+    margin: 0 60px;
+}
+
+footer {
+    display: flex;
+    background-color: #FD4C5C;
+    height: 470px;
+    align-items: center;
+}
+
+.textFour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0px 0px;
+    width: 1000px;
+}
+
+#txt {
+    color: whitesmoke;
+    line-height: 2;
+    font-size: 15px;
+}
+
+#txt-pri {
+    color: whitesmoke;
+    line-height: 7;
+    font-size: 15px;
+}
+
+#fo {
+    margin-left: 70px;
+}
+
+.right{
+    display: flex;
+    align-items: center ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    padding-left: 150px;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+hr {
+    width: 1000px;
+    color: whitesmoke;
+}
+
+.hrr {
+    padding-left: 150px;
+    width: 1170px;
+}
